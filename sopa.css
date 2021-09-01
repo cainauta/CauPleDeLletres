@@ -1,0 +1,39 @@
+.tablon{
+	color:#333333;
+	width:80%;
+	text-align:center;
+	margin:0px auto;
+	margin-bottom:20px;
+}
+tr{
+	background-color:#ffffff;
+}
+th{
+	font-size:14px;
+	background-color:#acc8cc;
+	padding: 8px;
+	text-align:center;
+}
+tr th:first-child{
+    border-radius: 10px 0px 0px 10px;
+}
+tr th:last-child{
+          border-radius: 0px 10px 10px 0px;
+}
+.tablero{
+	color:#333333;
+	width:80%;
+	border-collapse: collapse;
+	text-align:center;
+	margin:0px auto;
+}
+td{
+	font-size:14px;
+	font-weight: bold;
+	padding: 8px;
+	border-style: solid;
+	border-color: #729ea5;
+}
+td:hover{
+	background-color:#ffff99;
+}
